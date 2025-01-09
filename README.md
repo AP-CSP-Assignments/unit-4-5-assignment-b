@@ -1,4 +1,4 @@
-# unit-4-5-assignment
+# unit-4-5-assignment-b
 
 ## To compile code
 All code must be compiled before you can run it.  To compile means that you are converting your C++ code into a language that the computer can understand (e.g., binary).  To compile C++ code, run the following command in a terminal:
@@ -21,16 +21,11 @@ g++ classwork.cpp -o output
 ```
 
 # Instructions
-Do the following in the file named `homework.cpp`
+Do the following in the file named `homework.cpp`.  Your goal for this program is to create sections of code that will perform different outputs with the list called, names which contains the following values - `{"Peter", "Bruce", "Steve", "Tony", "Natasha", "Clint", "Wanda", "Hope", "Danny", "Carol"}` and the list called numbers which contains the following values - `100, 50, 10, 1, 2, 7, 11, 17, 53, -8, -4, -9, -72, -64, -80`. At the beginning of your program, add in any comments and create the two lists. Then create the following:
 
-## Task 1
-Create a list (vector) of ints, doubles, and strings.  Make sure each list has at least 5 elements in it.
-
-## Task 2
-Manually display the elements at index 0, 2, and 4 of your list of ints.
-
-## Task 3
-Use the provided `displayList()` procedure to display your list of strings.  Then, append your name to the list of strings using the `push_back()` procedure, and display it again.
-
-## Task 4
-Use the provided `displayList()` procedure to display your list of doubles.  Then, remove the last element of the list using the `pop_back()` procedure, and display it again.
+1. A loop that will output every other name in the names list.
+2. A loop that will output only the positive numbers in the numbers list.
+3. A loop that will output the sum of all the values in the numbers list.
+4. A loop that will output only the numbers that are odd.
+5. A loop that will output only the names that come before "Thor" in the alphabet from the names list.
+6. A loop that will find the maximum or minimum value in the numbers list. This algorithm requires an additional variable that is assigned to the first element in the list. Then, in a loop compare each element to the variable. If the element is > (for max) or < (for min), assign the variable to the element. After the loop, print the variable.
